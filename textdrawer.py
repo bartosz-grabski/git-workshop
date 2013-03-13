@@ -1,6 +1,6 @@
 class TextDrawer:
 	def setFont(self, font):
-		pass
+		self.font = font
 
 	def draw(self, text):
 		pass
