@@ -1,5 +1,6 @@
 from font import Font, FontLoader
 from textdrawer import TextDrawer
+import sys
 
 def main():
 	text = getText()
@@ -10,7 +11,7 @@ def main():
 	drawer.draw(text)
 
 def getText():
-	return 'Git'
+	return sys.argv[0]
 
 if __name__ == '__main__':
 	main()
