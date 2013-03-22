@@ -7,3 +7,8 @@ class TextDrawer:
 			print self.font.letters[character.upper()]
 
 
+def appendLetter(text, letter):
+	for i in xrange(len(text)):
+		text[i]+=letter[i]
+		
+	return text
