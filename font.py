@@ -7,7 +7,7 @@ class FontLoader:
 	def loadFont(self, directory):
 		font = Font("fancy")
 		
-		for filename is os.listdir(directory):
+		for filename in os.listdir(directory):
 			fonr.letters[filename] = readFile(directory+filename)
 		
 		return font
