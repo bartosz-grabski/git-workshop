@@ -8,7 +8,7 @@ class TextDrawer:
 			drawing = splitLetter(firstLetter)
 		
 			for character in text:
-				letter = splitLetter(self.font.letters[character.upper()]
+				letter = splitLetter(self.font.letters[character.upper()])
 				drawing = appendLetter(drawing, letter)
 			
 			for line in drawing:
